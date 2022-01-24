@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    line-height: 200%;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#header-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.links {
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: flex-end;
+    display: inline-flex;
+    margin: 0;
+    padding-left: 60px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
