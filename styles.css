@@ -48,7 +48,7 @@ a {
     padding: 0 24px;
 }
 
-button {
+.btn {
     display: block;
     background-color: #3882f6;
     color: #f9faf8;
@@ -105,5 +105,45 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    padding: 12px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    margin: 50px 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.sign-item {
+    flex: 1;
+}
+
+.signs-text {
+    text-align: left;
+    color: #e5e7eb;
+}
+
+.signs-button {
+    text-align: center;
+    color: #f9faf8;
+}
+
+.btn-signup {
+    background-color: #f9faf8;
+    color: #3882f6;
+    margin: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
     padding: 12px;
 }
