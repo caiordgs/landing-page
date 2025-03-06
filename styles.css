@@ -31,6 +31,7 @@ a {
     color: #f9faf8;
     align-items: center;
     justify-content: center;
+    padding-bottom: 24px;
 }
 
 .main-text {
@@ -39,7 +40,7 @@ a {
     padding: 24px;
 }
 
-p {
+.main-paragraph {
     font-size: 18px;
     color: #e5e7eb;
     text-wrap: wrap;
@@ -51,15 +52,58 @@ button {
     display: block;
     background-color: #3882f6;
     color: #f9faf8;
-    margin: 15px 0;
+    margin: 12px 24px;
     border: none;
     border-radius: 6px;
     padding: 10px 40px;
     font-size: 16px;
 }
 
-img {
-    width: 400px;
-    height: 400px;
-    padding-right: 24px;
+.popologo {
+    width: auto;
+    height: 100px;
+    padding-top: 24px;
+}
+
+.second-text {
+    text-align: center;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fotos-popo {
+    margin: 12px 24px;
+    padding: 24px;
+    width: 300px;
+    height: 300px;
+}
+
+.sobre-popo {
+    text-align: center;
+}
+
+.quote-text {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 12px;
 }
