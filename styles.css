@@ -1,0 +1,25 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    text-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 0 10px;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
